@@ -16,7 +16,6 @@ a {
 }
 
 /* ---------Header-------- */
-
 /*Logo y nombre */
 .Logo {
     display: flex;
@@ -79,7 +78,6 @@ main {
     height: 90vh;
 }
 
-
 main h3 {
     font-size: 25px;
     margin: 30px;
@@ -133,14 +131,13 @@ main h3 {
 }
 
 /*Seccion servicios */
-
 .ServicioContainer {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }
 
-.ServicioContainer .cardService {
+.cardService {
     font-size: 14px;
     width: 200px;
     margin: 15px;
@@ -463,7 +460,6 @@ footer p {
         display: flex;
         margin-top: 20px;
         flex-direction: column;
-        margin-top: 20px;
     }
 
     .cardService {

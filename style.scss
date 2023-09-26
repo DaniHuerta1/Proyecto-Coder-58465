@@ -137,17 +137,17 @@ main {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+}
 
-    .cardService {
-        font-size: 14px;
-        width: 200px;
-        margin: 15px;
-        padding: 10px;
-        border-radius: 20px;
-        text-align: center;
-        color: white;
-        background-color: black
-    }
+.cardService {
+    font-size: 14px;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    background-color: black
 }
 
 .nuestrosclientes {
@@ -475,7 +475,6 @@ footer {
         display: flex;
         margin-top: 20px;
         flex-direction: column;
-        margin-top: 20px;
     }
 
     .cardService {
