@@ -1,13 +1,9 @@
 $colorbackground: #E6E6FA;
-$colorfondoboton:rgb(152, 100, 201);
+$colorfondoboton: rgb(152, 100, 201);
 $bordesencillo: 1px solid black;
 $bordegrueso: 2px solid black;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "./base/reset";
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -185,7 +181,7 @@ main {
     border-radius: 20px;
 
     &:hover {
-        background-color:$colorfondoboton;
+        background-color: $colorfondoboton;
         color: black;
         font-weight: bold;
     }
@@ -291,7 +287,7 @@ footer {
 .section_servicios {
     height: 100%;
     width: 100%;
-    background-color:  $colorbackground;
+    background-color: $colorbackground;
 
     h3 {
         font-size: 35px;
@@ -331,7 +327,7 @@ table {
     }
 
     td {
-        border:$bordesencillo;
+        border: $bordesencillo;
         text-align: center;
         padding: 20px;
 
@@ -361,7 +357,7 @@ table {
     grid-gap: 30px;
 
     img {
-        border:$bordesencillo;
+        border: $bordesencillo;
         border-radius: 15px;
         width: 100%;
         height: 100%;
@@ -404,7 +400,7 @@ table {
     }
 
     h4 {
-margin-left: 10px;
+        margin-left: 10px;
     }
 }
 
@@ -417,7 +413,7 @@ margin-left: 10px;
 }
 
 .btn:hover {
-    background-color:$colorfondoboton;
+    background-color: $colorfondoboton;
     color: black;
 }
 
