@@ -368,7 +368,7 @@ table td {
 /*Contacto*/
 #section-contacto {
     height: 100%;
-    padding: 25px;
+    padding: 50px;
     background-color: #E6E6FA;
     display: flex;
     justify-content: space-evenly;
@@ -395,6 +395,17 @@ table td {
     background-color: rgb(152, 100, 201);
     color: black;
 }
+
+.footer_contacto h4 {
+margin-bottom: 0px;
+margin-left: 10px;
+}
+
+.footer_contacto p {
+    margin: 0px;
+    margin-left: 10px;
+}
+
 
 /* media query */
 /*TABLET*/
