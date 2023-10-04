@@ -3,7 +3,11 @@ $colorfondoboton: rgb(152, 100, 201);
 $bordesencillo: 1px solid black;
 $bordegrueso: 2px solid black;
 
-@import "./base/reset";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +17,7 @@ body {
 a {
     text-decoration: none;
 }
+
 
 /* ---------Header-------- */
 
@@ -32,7 +37,6 @@ a {
     }
 }
 
-/*Navbar*/
 header {
     nav ul {
         display: flex;
