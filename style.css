@@ -156,6 +156,7 @@ main h3 {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .cardService {
@@ -181,6 +182,7 @@ main h3 {
   justify-content: space-around;
   text-align: center;
   margin: 25px 25px 25px 25px;
+  overflow: hidden;
 }
 .nuestrosClientes-img img {
   width: 450px;

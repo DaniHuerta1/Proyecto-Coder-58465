@@ -91,10 +91,12 @@ main {
 
 /*Seccion servicios */
 
+
 .ServicioContainer {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .cardService {
@@ -105,7 +107,7 @@ main {
     border-radius: 20px;
     text-align: center;
     color: white;
-    background-color: black
+    background-color: black;
 }
 
 .nuestrosclientes {
@@ -120,6 +122,7 @@ main {
     justify-content: space-around;
     text-align: center;
     margin: 25px 25px 25px 25px;
+    overflow: hidden;
 
     img {
         width: 450px;
