@@ -100,20 +100,30 @@ main {
 }
 
 .cardService {
-    font-size: 14px;
+    font-size: 16px;
     width: 200px;
-    margin: 15px;
+    margin: 20px;
     padding: 10px;
     border-radius: 20px;
-    text-align: center;
     color: white;
     background-color: black;
+    text-align: center;
+
+    h4 {
+        color: rgb(150, 97, 196);
+
+    }
+
 }
 
 .nuestrosclientes {
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
+
+    h3 {
+        font-size: 30px;
+    }
 }
 
 .nuestrosClientes-img {
@@ -129,6 +139,7 @@ main {
         border-radius: 20px;
         border: $bordesencillo;
     }
+
 }
 
 .boton2 {

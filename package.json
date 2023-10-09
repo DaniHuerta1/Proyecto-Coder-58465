@@ -8,5 +8,8 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@flaticon/flaticon-uicons": "^2.4.0"
+  }
 }
