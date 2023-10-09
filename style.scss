@@ -1,13 +1,3 @@
-$colorbackground: #E6E6FA;
-$colorfondoboton: rgb(152, 100, 201);
-$bordesencillo: 1px solid black;
-$bordegrueso: 2px solid black;
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -18,47 +8,10 @@ a {
     text-decoration: none;
 }
 
-
-/* ---------Header-------- */
-
-/*Logo y nombre */
-.Logo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
-    img {
-        width: 30px;
-    }
-
-    h1 {
-        font-size: 25px;
-        color: black;
-    }
-}
-
-header {
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        justify-content: end;
-        background-color: black;
-        padding: 10px 10px;
-        margin: 0px 0px 0px;
-
-        a {
-            margin: 10px;
-            font-size: 20px;
-            padding: 20px 20px;
-            color: white;
-
-            &:hover {
-                color: $colorfondoboton;
-            }
-        }
-    }
-}
+@import "./abstracts/variables";
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/footer";
 
 .banner_inicio {
     display: flex;
@@ -193,45 +146,6 @@ main {
     &:active {
         font-size: 22px;
         color: white;
-    }
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: black;
-    color: white;
-
-    ul {
-        display: flex;
-        text-align: center;
-        list-style: none;
-    }
-
-    h4 {
-        margin-top: 10px;
-        font-size: 12px;
-    }
-
-    p {
-        font-size: 10px;
-        margin-left: 10px;
-    }
-}
-
-.redes {
-    margin-right: 15px;
-
-    h4 {
-        margin-bottom: 5px;
-    }
-
-    img {
-        width: 20px;
-        border-radius: 25px;
-        margin-right: 10px;
     }
 }
 
