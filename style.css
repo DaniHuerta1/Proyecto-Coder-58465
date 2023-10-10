@@ -246,7 +246,7 @@ main h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 100px;
   margin-bottom: 30px;
 }
 
@@ -496,6 +496,7 @@ table td {
   .nosotros_container {
     margin-left: 20px;
     margin-right: 20px;
+    gap: 30px;
   }
   .nosotros_img img {
     width: 100%;
