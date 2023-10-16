@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+    overflow-x: hidden;
 }
 
 a {
@@ -13,9 +13,8 @@ a {
 @import "./layout/header";
 @import "./layout/footer";
 
-.banner_inicio {
+.banner {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(https://img.freepik.com/vector-gratis/vector-fondo-animal-ilustracion-mascotas-lindas_53876-127698.jpg);
@@ -23,6 +22,7 @@ a {
     width: 100%;
     height: 400px;
     border: $bordegrueso;
+
 
     h2 {
         margin-bottom: 170px;
@@ -34,11 +34,11 @@ a {
 /*Portada*/
 main {
     background-color: $colorbackground;
-    height: 90vh;
+    height: 100vh;
+    overflow-x: hidden;
 
     h3 {
         font-size: 25px;
-        margin: 30px;
     }
 }
 
@@ -47,6 +47,7 @@ main {
     justify-content: space-between;
     align-items: center;
 
+
     h3 {
         font-size: 25px;
         text-align: left;
@@ -54,14 +55,14 @@ main {
     }
 
     p {
-        margin: 50px 50px;
+        margin: 30px 50px;
         font-size: 20px;
         max-width: 80%;
     }
 
     img {
         border-radius: 20px;
-        margin: 50px 50px;
+        margin: 50px 60px;
         width: 500px;
     }
 }
@@ -96,7 +97,6 @@ main {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    overflow: hidden;
 }
 
 .cardService {
@@ -237,7 +237,7 @@ gap: 100px;
 }
 
 img {
-    width: 400px;
+    width: 500px;
     border: 0px solid black;
     border-radius: 15px;
 }
@@ -293,7 +293,6 @@ table {
         border-radius: 15px;
         width: 100%;
         height: 100%;
-        object-fit: cover;
 
         &:hover {
             cursor: pointer;
@@ -364,16 +363,18 @@ table {
 
     #Portada {
         justify-content: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
 
         h3 {
             margin-top: 15px;
-            margin-bottom: 15px;
-            font-size: 22px;
+            margin-bottom: 10px;
+            font-size: 20px;
         }
 
         p {
-            font-size: 14px;
-            margin: 30px 30px;
+            font-size: 12px;
+            margin: 20px 30px;
         }
 
         img {
@@ -458,7 +459,7 @@ table {
 
 /*MOBILE */
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
     /* Inicio */
 
