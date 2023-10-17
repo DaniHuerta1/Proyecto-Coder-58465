@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 3px solid red;
 }
 
 body {
@@ -152,6 +151,10 @@ main h3 {
 }
 
 /*Seccion servicios */
+.section-inicio {
+  overflow: hidden;
+}
+
 .ServicioContainer {
   flex-wrap: wrap;
   display: flex;

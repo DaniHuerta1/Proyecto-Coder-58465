@@ -81,8 +81,9 @@ main {
 }
 
 /*Seccion servicios */
-
-
+.section-inicio {
+    overflow: hidden;
+}
 .ServicioContainer {
     flex-wrap: wrap;
     display: flex;
