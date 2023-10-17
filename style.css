@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 3px solid red;
 }
 
 body {
@@ -55,6 +56,7 @@ footer {
   flex-wrap: wrap;
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 footer ul {
   display: flex;
@@ -101,7 +103,7 @@ footer p {
 /*Portada*/
 main {
   background-color: #E6E6FA;
-  height: 90vh;
+  height: 92vh;
 }
 main h3 {
   font-size: 25px;
@@ -382,13 +384,21 @@ table td {
 /* media query */
 /*TABLET*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
+  .Logo h1 {
+    font-size: 18px;
+  }
+  .Logo img {
+    width: 20px;
+  }
+  header nav ul {
+    padding: 5px 5px;
+  }
+  header nav ul a {
+    font-size: 15px;
   }
   main {
-    height: 100vh;
-    width: 100%;
-    padding: 25px 25px;
+    height: 90vh;
+    padding: 10px 10px;
   }
   #Portada {
     justify-content: space-between;
@@ -478,9 +488,6 @@ table td {
 }
 /*MOBILE */
 @media screen and (min-width: 320px) and (max-width: 760px) {
-  body {
-    overflow-x: hidden;
-  }
   /* Inicio */
   .Logo h1 {
     font-size: 12px;
@@ -490,6 +497,7 @@ table td {
   }
   main {
     height: 100vh;
+    overflow-x: hidden;
   }
   #Portada {
     flex-direction: column;
@@ -561,16 +569,17 @@ table td {
   }
   /* Nosotros */
   .nosotros_container {
-    margin-left: 20px;
-    margin-right: 20px;
-    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
   }
   .nosotros_img img {
     width: 100%;
-    height: 250px;
+    height: 280px;
   }
   .nosotros_p {
     font-size: 15px;
+    width: 80%;
   }
   /* Servicios */
   /*Servicios */
@@ -580,7 +589,10 @@ table td {
     padding: 0px;
   }
   .servicios_img {
-    padding: 25px;
+    padding: 10px 10px;
+  }
+  .servicios_img img {
+    width: 300px;
   }
   /*GALERIA */
   #servicios-container {
