@@ -1,13 +1,14 @@
 /* ---------Header-------- */
 
 /*Logo y nombre */
-.Logo {
+.logo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 
     img {
         width: 30px;
+        height: 30px;
     }
 
     h1 {
