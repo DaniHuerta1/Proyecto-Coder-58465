@@ -380,7 +380,7 @@ table td {
   background-color: #E6E6FA;
   text-align: center;
 }
-.formh2 h2 {
+.formh2 h3 {
   margin: 0px;
 }
 
@@ -598,14 +598,14 @@ table td {
     text-align: center;
   }
   nav ul li a {
-    font-size: 10px;
+    font-size: 12px;
     padding: 0px;
   }
   .banner {
     display: none;
   }
   footer p {
-    font-size: 8px;
+    font-size: 12px;
   }
   /* Nosotros */
   .nosotros_container {
