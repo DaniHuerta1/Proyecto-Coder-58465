@@ -80,6 +80,7 @@ footer p {
 }
 .redes img {
   width: 20px;
+  height: 20px;
   border-radius: 25px;
   margin-right: 10px;
 }
@@ -469,6 +470,10 @@ table td {
   .boton2 {
     font-size: 14px;
   }
+  .redes img {
+    width: 20px;
+    height: 20px;
+  }
   /*Nosotros */
   .nosotros_container {
     display: flex;
@@ -665,6 +670,10 @@ table td {
   #section-contacto img {
     display: none;
   }
+}
+.redes img {
+  width: 15px;
+  height: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

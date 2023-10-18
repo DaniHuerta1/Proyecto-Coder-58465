@@ -454,6 +454,13 @@ table {
         font-size: 14px;
     }
 
+    .redes {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
     /*Nosotros */
 
     .nosotros_container {
@@ -718,4 +725,11 @@ table {
         }
     }
 
+}
+
+.redes {
+    img {
+        width: 15px;
+        height: 15px;
+    }
 }
